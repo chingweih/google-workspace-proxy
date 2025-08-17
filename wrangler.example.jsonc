@@ -3,5 +3,11 @@
   "name": "chingweih-workspace-proxy",
   "main": "src/index.ts",
   "compatibility_date": "2025-08-17",
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "KV_NAMESPACE_ID"
+    }
+  ]
 }
